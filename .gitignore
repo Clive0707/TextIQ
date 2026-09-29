@@ -1,0 +1,19 @@
+# Runtime data (created by the app). The provided source dataset in data/source/ is kept.
+data/*
+!data/source/
+trained_models/
+experiments/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+Thumbs.db
